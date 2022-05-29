@@ -27,7 +27,7 @@ jobs:
 
       #删除node_modules
       - name: Delete
-        run: rm -rf node_modules && rm package-lock.json && npm cache clear --force
+        run: rm -rf node_modules && npm cache clear --force
 
       # 生成静态文件
       - name: Build
